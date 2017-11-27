@@ -1,5 +1,7 @@
 ; by Aaditya Purani
 ; Leap Year finder, if yes -> sets eax = 1 or if no -> sets eax = 0
+; The DIV instruction returns the quotient in AX and the remainder in DX, on the x86 architecture.
+
 main:
 	mov dx, 0
 	mov ax, 4000 ; Checking Leap year here
